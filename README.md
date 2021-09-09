@@ -1,6 +1,6 @@
 ## FIRST PROJECT FA (FINANCE PROJECT)
 
-## I. Decsription of this project
+## I. 📚 Decsription of this project
 
 **Define the business needs:** 
 Finance- We is trying to evaluate the a *consumer's creditworthiness* (based on historical financial and personal information)
