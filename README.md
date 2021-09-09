@@ -7,7 +7,7 @@ Finance- We is trying to evaluate the a *consumer's creditworthiness* (based on 
 **Solution:**
 *We will need to aggregate data based on *transition*, *customer*, *jobs*, *addresses* and *date*. It will be evaluated based on *credit score* (historical financial and personal information)*
 
-## II. Working data
+## II. ⚙️Working data
 
 Data is generated based on Python script. The database (.csv flat files) will include:
 1. Address.csv
@@ -21,9 +21,9 @@ Data is generated based on Python script. The database (.csv flat files) will in
 5. Transaction.csv
 	This file includes basics data for an transaction such as transactionID, startDate, endDate, percents, customerID, employeeID.
 ### Flow [flow.PNG](./docs/flow.PNG)
-## III. Detail of work
+## III. 📋Detail of work
 
-1. ⚙️ Generate Data
+1. Generate Data
     - Generate rawdata and copy to workfolder
 2. Design data pipeline ![data_pipeline](./docs/data_pipeline.png)
 3. Design finance database ![finance_database](./docs/finance_database.png)
@@ -82,7 +82,7 @@ Data is generated based on Python script. The database (.csv flat files) will in
 1. Overview : [here](https://app.powerbi.com/view?r=eyJrIjoiMThmNjQ5N2MtZDYyMy00YzE2LThlNjctOWMzNGEzMGY3ZjAzIiwidCI6ImYwMWU5MzBhLWI1MmUtNDJiMS1iNzBmLWE4ODgyYjVkMDQzYiIsImMiOjEwfQ%3D%3D&pageName=ReportSectionfd6c4f8a7b4196007673)
 ![DASHBOARD](./powerBI/dashboard1.PNG)
 2. Rankofloan: [here](https://app.powerbi.com/view?r=eyJrIjoiMThmNjQ5N2MtZDYyMy00YzE2LThlNjctOWMzNGEzMGY3ZjAzIiwidCI6ImYwMWU5MzBhLWI1MmUtNDJiMS1iNzBmLWE4ODgyYjVkMDQzYiIsImMiOjEwfQ%3D%3D&pageName=ReportSectionfd6c4f8a7b4196007673)
-![DASHBOARD2](./powerBI/RANKED-LOAN DETAIL.PNG)
+![DASHBOARD2](./powerBI/"RANKED-LOAN DETAIL.PNG")
 
 
 ### Note account trainer (snowflake):
