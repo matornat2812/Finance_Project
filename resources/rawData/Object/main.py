@@ -78,7 +78,7 @@ def gencsvaddress():
 # gencsv customer
 def gencsvcustomer():
     """Generation data customer"""
-    with open(raw_path + "customer.csv", "w", newline="") as csvfile:
+    with open(raw_path + "Customer.csv", "w", newline="") as csvfile:
         fieldnames = [
             "customerID",
             "creditCard",
@@ -119,7 +119,7 @@ def gencsvcustomer():
 # gen csv jobid
 def gencsvjob():
     """Generator data job"""
-    with open(raw_path + "job.csv", "w", newline="") as csvfile:
+    with open(raw_path + "Job.csv", "w", newline="") as csvfile:
         fieldnames = ["jobID", "jobTitle", "income_basic"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
@@ -137,7 +137,7 @@ def gencsvjob():
 # gen data Employee
 def gencsvemployee():
     """generator data employee"""
-    with open(raw_path + "employee.csv", "w", newline="") as csvfile:
+    with open(raw_path + "Employee.csv", "w", newline="") as csvfile:
         fieldnames = [
             "employeeID",
             "name",
