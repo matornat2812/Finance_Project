@@ -57,7 +57,7 @@ Data is generated based on Python script. The database (.csv flat files) will in
 
 2. Download and install ODBC Driver [here](https://sfc-repo.snowflakecomputing.com/odbc/win64/latest/index.html)
 
-3. Set OBDC with DNS 32bit/64bit with information:
+3. Set OBDC with DNS system and choice SnowflakeDSIIDriver. All 32bit/64bit with information:
 
    ![image](https://user-images.githubusercontent.com/62283838/132566264-f14e4eff-4468-4034-a4bb-fdeeefb5c8ef.png)
 
