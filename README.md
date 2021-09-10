@@ -22,7 +22,7 @@ Data is generated based on Python script. The database (.csv flat files) will in
 	This file includes basics data for an transaction such as transactionID, startDate, endDate, percents, customerID, employeeID.
 ### Flow [flow.PNG](./docs/flow.PNG)
 ## III. 📋 Detail of work
-
+You should run with flow in that
 1. Generate Data
     - Generate rawdata and copy to workfolder
 2. Design data pipeline ![data_pipeline](./docs/data_pipeline.png)
